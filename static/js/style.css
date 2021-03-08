@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(219, 240, 233);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .jumbotron p {
+    font-weight: 500;
+    color: rgb(6, 2, 20)
+    
+}
+
+.jumbotron h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    
+} */
+
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    opacity: 0.2;
+    background: url("http://robdunnlab.com/wp-content/uploads/microbes-sem.jpg") top center no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.jumbotron h2 {margin-top:0;}
+.jumbotron {
+    position:relative;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:50px;
+    color: rgb(29, 44, 44);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.jumbotron .container {
+    position:relative;
+    z-index:2;
+}
+
+@media screen and (max-width: 600px) {
+    .jumbotron {
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    img {
+        margin-bottom: -5px;
+        width: 10%;
+        max-width: 40px;
+        min-width: 30px;
+        height: auto;
+        margin-left: 70%;
+    }
+
+}
+
+.panel {
+    color:rgb(197,53,50,.7);
+    font-size: 70%;
+}
+
+.panel > .panel-heading {
+    background-image:none;
+    background-color:rgb(197,53,50,.7);
+    color: white;
+    border-color:darkgrays;
+    font-size: 70%;
+    
+}
+.panel-title {
+    font-size: medium;
+}
+.panel-body {
+    background-color: rgb(240, 240, 240);
+}
+
+img {
+    margin-bottom: -25px;
+    width: 20%;
+    max-width: 85px;
+    min-width: 60px;
+    height: auto;
+    margin-left: 70%;
+}
+
+select:active, select:hover {
+    outline-color:rgb(197,53,50,.7);
+
+}
+:focus {
+    outline: rgb(197,53,50,.7) auto 1px;
+}
+
